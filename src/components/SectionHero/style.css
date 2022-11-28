@@ -1,0 +1,41 @@
+#hero{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero-hello{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#hero-my-name, #hero-my-job{
+    font-size: 72px;
+}
+
+#hero-my-name{
+    color: #CCD6F6;
+}
+
+#hero-my-job{
+    color: #8892B0;
+}
+
+#hero-about{
+    line-height: 25px;
+    width: 525px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+#hero-button{
+    font-size: 16px;
+    height: 54px;
+    width: 235px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid;
+    font-weight: 600;
+    cursor: pointer;
+}
