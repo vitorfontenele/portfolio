@@ -4,16 +4,43 @@
     align-items: flex-end;
     justify-content: center;
     position: relative;
+    height: 324px;
+    margin-bottom: 100px;
+}
+
+.project:nth-of-type(even){
+    /* background-color: red; */
+    align-items: flex-start;
 }
 
 .project-banner{
     position: absolute;
-    /* z-index: -1; */
-    left: 0;  
+    z-index: 0;
+    top: 0;
+}
+
+.project:nth-of-type(odd) .project-banner{
+    left: 0;
+}
+
+.project:nth-of-type(even) .project-banner{
+    right: 0;
 }
 
 .project-banner > img{
     border-radius: 3px;
+}
+
+.project-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+.project:nth-of-type(even) .project-info{
+    align-items: flex-start;
 }
 
 .project-name{
