@@ -29,13 +29,27 @@
     margin-top: 30px;
 }
 
-#hero-button{
+#hero-links{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-link{
     font-size: 16px;
     height: 54px;
-    width: 235px;
+    width: 150px;
     border-radius: 3px;
+    border: 2px solid;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: transparent;
     border: 2px solid;
     font-weight: 600;
-    cursor: pointer;
+    text-decoration: none;
+}
+
+#hero-link-github{
+    color: #828DAA;
 }

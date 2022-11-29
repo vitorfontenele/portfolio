@@ -1,3 +1,10 @@
+#about{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #about-body{
     display: flex;
     flex-direction: row;

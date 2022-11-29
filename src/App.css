@@ -8,17 +8,13 @@
   grid-column: 2 / 3;
 }
 
-section{
-  margin-bottom: 120px;
-}
-
 .highlight-text{
   color: #56CFBA;
 }
 
 .section-title{
   font-weight: 600;
-  font-size: 24px;
+  font-size: 28px;
   color: #FEFEFE;
   letter-spacing: .05em;
   margin-bottom: 40px

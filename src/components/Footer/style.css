@@ -1,0 +1,21 @@
+#footer{
+    padding-bottom: 20px;
+    padding-top: 20vh;
+}
+
+h6{
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #ccc;
+    transition: .5s ease all;
+}
+
+.footer-link:hover{
+    color: #56CFBA;
+}
