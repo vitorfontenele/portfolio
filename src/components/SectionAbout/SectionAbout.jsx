@@ -2,7 +2,7 @@ import "./style.css";
 
 const SectionAbout = () => {
     return (
-        <section id="about">
+        <section id="about" data-aos="fade-up" data-aos-duration="1000">
             <h2 className='section-title'>Sobre</h2>
             <div id="about-body">
                 <div id="about-text">

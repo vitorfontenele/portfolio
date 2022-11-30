@@ -13,6 +13,7 @@
 
 #about-text{
     width: 546px;
+    margin-right: 40px;
 }
 
 .about-p{
@@ -24,23 +25,37 @@
 #about-photo{
     position: relative;
     z-index: 0;
+    height: 100%;
+    width: fit-content;
 }
 
 #about-photo > img{
-    width: 301px;
-    height: 312px;
+    max-width: 100%;
+    height: auto;
     border-radius: 3px;
 }
 
 #about-photo-dec{
     position: absolute;
-    width: 301px;
-    height: 312px;
+    width: 100%;
+    height: 100%;
+    /* width: 301px;
+    height: 312px; */
     background-color: beige;
     top: 12px;
-    left: 12px;
+    left: 16px;
     border-radius: 3px;
     background-color: transparent;
     border: 2px solid #828DAA;
     z-index: -1;
+}
+
+@media screen and (max-width: 790px){
+    #about-body{
+        flex-direction: column;
+    }
+
+    #about-photo{
+        margin: auto;
+    }
 }

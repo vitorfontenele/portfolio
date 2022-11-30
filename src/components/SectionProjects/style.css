@@ -21,6 +21,8 @@
     position: absolute;
     z-index: 0;
     top: 0;
+    height: 324px;
+    width: 547px;
 }
 
 .project:nth-of-type(odd) .project-banner{

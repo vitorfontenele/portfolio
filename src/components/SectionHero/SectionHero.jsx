@@ -2,7 +2,7 @@ import "./style.css";
 
 const SectionHero = () => {
     return (
-        <section id="hero">
+        <section id="hero" data-aos="fade-right" data-aos-duration="1000">
             <h3 id="hero-hello" className="highlight-text">Olá, meu nome é</h3>
             <h1 id="hero-my-name">Vitor Fontenele.</h1>
             <h2 id="hero-my-job">Eu sou um Web Dev.</h2>

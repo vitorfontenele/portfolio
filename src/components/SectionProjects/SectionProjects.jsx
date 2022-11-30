@@ -2,11 +2,11 @@ import "./style.css";
 
 const SectionProjects = () => {
     return (
-        <section id="projects">
+        <section id="projects" data-aos="fade-up" data-aos-duration="1000">
             <h2 className='section-title'>Projetos</h2>
             <article className="project">
                 <div className="project-banner">
-                    <img src="weather-app-brasil.jpg" alt="Weather App Brasil Printscreen"/>
+                    {/* <img src="weather-app-brasil.jpg" alt="Weather App Brasil Printscreen"/> */}
                 </div>
                 <div className="project-info">
                     <h4 className="highlight-text">Projeto em React</h4>
@@ -25,8 +25,8 @@ const SectionProjects = () => {
                 </div>                
             </article>
             <article className="project">
-                <div className="project-banner">
-                    <img src="shopping-cart.jpg" alt="Shopping Cart Printscreen"/>
+                <div className="project-banner" style={{background: "linear-gradient(0deg, rgba(97, 233, 206, 0.7), rgba(97, 233, 206, 0.7)), url('weather-app-brasil.jpg')"}}>
+                    {/* <img src="shopping-cart.jpg" alt="Shopping Cart Printscreen"/> */}
                 </div>
                 <div className="project-info">
                     <h4 className="highlight-text">Projeto em React</h4>
@@ -46,7 +46,7 @@ const SectionProjects = () => {
             </article>
             <article className="project">
                 <div className="project-banner">
-                    <img src="projeto-intro-web.jpg" alt="Projeto Intro Web Printscreen"/>
+                    {/* <img src="projeto-intro-web.jpg" alt="Projeto Intro Web Printscreen"/> */}
                 </div>
                 <div className="project-info">
                     <h4 className="highlight-text">Projeto em JS Vanilla</h4>

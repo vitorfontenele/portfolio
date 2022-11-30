@@ -26,3 +26,9 @@
   letter-spacing: .025em;
 }
 
+@media screen and (max-width: 1132px){
+  .App{
+    grid-template-columns: 90px 1fr 90px;
+  }
+}
+

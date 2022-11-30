@@ -2,7 +2,7 @@ import "./style.css";
 
 const SectionOtherProjects = () => {
     return (
-     <section id="other-projects">
+     <section id="other-projects" data-aos="fade-up" data-aos-duration="1000">
         <h3 id="other-projects-title" className="section-title">Outros projetos</h3>
         <h4 id="other-projects-subtext" className="highlight-text">Projetos secundários</h4>
         <div className="grid-area">

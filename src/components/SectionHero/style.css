@@ -53,3 +53,13 @@
 #hero-link-github{
     color: #828DAA;
 }
+
+@media screen and (max-width: 1132px){
+    #hero-my-name, #hero-my-job{
+        font-size: clamp(40px, 6.3vw, 72px);
+    }
+
+    #hero-about{
+        width: 50vw;
+    }
+  }
