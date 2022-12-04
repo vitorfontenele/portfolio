@@ -51,11 +51,20 @@
 }
 
 @media screen and (max-width: 790px){
+    #about{
+        margin-bottom: 100px;
+    }
+    
+    #about-text{
+        width: 100%;
+    }
+
     #about-body{
         flex-direction: column;
     }
 
     #about-photo{
+        width: 220px;
         margin: auto;
     }
 }

@@ -32,6 +32,7 @@
 #hero-links{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .hero-link{
@@ -48,10 +49,19 @@
     border: 2px solid;
     font-weight: 600;
     text-decoration: none;
+    transition: .25s ease all;
 }
 
 #hero-link-github{
     color: #828DAA;
+}
+
+#hero-link-github:hover{
+    background-color: rgba(130, 141, 170, 0.3);
+}
+
+#hero-link-linkedin:hover{
+    background-color: rgba(86, 207, 186, 0.3);
 }
 
 @media screen and (max-width: 1132px){
@@ -63,3 +73,9 @@
         width: 50vw;
     }
   }
+
+@media screen and (max-width: 500px){
+    #hero-about{
+        width: 100%;
+    }
+}

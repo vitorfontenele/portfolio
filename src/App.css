@@ -26,9 +26,33 @@
   letter-spacing: .025em;
 }
 
+.logo-svg{
+  fill: #c6d0f0;
+  transition: .5s ease all;
+}
+
+.logo-svg-2{
+  stroke: #c6d0f0;
+  transition: .5s ease all;
+}
+
+.logo-svg:hover{
+  fill: #56CFBA;
+}
+
+.logo-svg-2:hover{
+  stroke: #56CFBA;
+}
+
 @media screen and (max-width: 1132px){
   .App{
     grid-template-columns: 90px 1fr 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .App{
+    grid-template-columns: 7vw 1fr 7vw;
   }
 }
 

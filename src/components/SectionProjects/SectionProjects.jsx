@@ -1,4 +1,6 @@
 import "./style.css";
+import GithubLogo from "../Icons/GithubLogo";
+import ExternalLinkLogo from "../Icons/ExternalLinkLogo";
 
 const SectionProjects = () => {
     return (
@@ -20,8 +22,8 @@ const SectionProjects = () => {
                         <li className="project-tech">SVG</li>
                     </ul>
                     <ul className="project-links">
-                        <li><a href=""><img className="proj-link-image" src="github-logo.svg" /></a></li>
-                        <li><a href=""><img className="proj-link-image" src="external-link.svg" /></a></li>
+                        <li><a href=""><GithubLogo /></a></li>
+                        <li><a href=""><ExternalLinkLogo /></a></li>
                     </ul>
                 </div>                
             </article>

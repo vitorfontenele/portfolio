@@ -72,7 +72,9 @@
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 40px;
 }
 
 .project-tech{
@@ -109,5 +111,38 @@
         width: 52vw;
         height: 30.8vw;
         top: calc((324px - 30.8vw)/2);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .project, .project-info{
+        align-items: flex-start;
+    }
+
+    .project{
+        padding: 48px 36px;
+        border-radius: 3px;
+        height: auto;
+    }
+
+    .project-info{
+        width: 100%;
+    }
+
+    .project-p{
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+        width: auto;
+    }
+
+    .project-banner{
+        height: 100%;
+        width: 100%;
+        top: 0;
+    }
+
+    .cover-layer{
+        background-color: rgba(17, 34, 64, 0.9);;
     }
 }
