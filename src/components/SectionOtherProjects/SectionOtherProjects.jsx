@@ -1,6 +1,7 @@
 import "./style.css";
 import GithubLogo from "../Icons/GithubLogo";
 import ExternalLinkLogo from "../Icons/ExternalLinkLogo";
+import Folder from "../Icons/Folder";
 
 const SectionOtherProjects = () => {
     return (
@@ -12,7 +13,7 @@ const SectionOtherProjects = () => {
                 <div className="other-proj-top">
                     <div className="logos-row">
                         <div>
-                            <img className="link-logo" src="github-logo.svg"></img>
+                            <Folder />
                         </div>
                         <div>
                             <ul className="second-group-logos">
@@ -36,7 +37,7 @@ const SectionOtherProjects = () => {
                 <div className="other-proj-top">
                     <div className="logos-row">
                         <div>
-                            <img className="link-logo" src="github-logo.svg"></img>
+                            <Folder />
                         </div>
                         <div>
                             <ul className="second-group-logos">
@@ -60,7 +61,7 @@ const SectionOtherProjects = () => {
                 <div className="other-proj-top">
                     <div className="logos-row">
                         <div>
-                            <img className="link-logo" src="github-logo.svg"></img>
+                            <Folder />
                         </div>
                         <div>
                             <ul className="second-group-logos">
