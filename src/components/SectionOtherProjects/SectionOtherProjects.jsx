@@ -1,4 +1,6 @@
 import "./style.css";
+import GithubLogo from "../Icons/GithubLogo";
+import ExternalLinkLogo from "../Icons/ExternalLinkLogo";
 
 const SectionOtherProjects = () => {
     return (
@@ -12,9 +14,11 @@ const SectionOtherProjects = () => {
                         <div>
                             <img className="link-logo" src="github-logo.svg"></img>
                         </div>
-                        <div className="second-group-logos">
-                            <img className="link-logo" src="github-logo.svg"></img>
-                            <img className="link-logo" src="external-link.svg"></img>
+                        <div>
+                            <ul className="second-group-logos">
+                                <li><a className="github-anchor" href="https://github.com/vitorfontenele/converter-compra-em-dolar-no-cartao-para-real" target="_blank"><GithubLogo /></a></li>
+                                <li><a className="external-link-anchor" href="https://vitorfontenele.github.io/converter-compra-em-dolar-no-cartao-para-real/" target="_blank"><ExternalLinkLogo /></a></li>
+                            </ul>                           
                         </div>
                     </div>
                     <h4 className="other-proj-title">Compras em dólar no cartão de crédito</h4>
@@ -34,9 +38,11 @@ const SectionOtherProjects = () => {
                         <div>
                             <img className="link-logo" src="github-logo.svg"></img>
                         </div>
-                        <div className="second-group-logos">
-                            <img className="link-logo" src="github-logo.svg"></img>
-                            <img className="link-logo" src="external-link.svg"></img>
+                        <div>
+                            <ul className="second-group-logos">
+                                <li><a className="github-anchor" href="https://codepen.io/vitorfontenele/pen/ZEvqjoe" target="_blank"><GithubLogo /></a></li>
+                                <li><a className="external-link-anchor" href="https://codepen.io/vitorfontenele/pen/ZEvqjoe" target="_blank"><ExternalLinkLogo /></a></li>
+                            </ul>                           
                         </div>
                     </div>
                     <h4 className="other-proj-title">Editor de Markdown</h4>
@@ -56,9 +62,11 @@ const SectionOtherProjects = () => {
                         <div>
                             <img className="link-logo" src="github-logo.svg"></img>
                         </div>
-                        <div className="second-group-logos">
-                            <img className="link-logo" src="github-logo.svg"></img>
-                            <img className="link-logo" src="external-link.svg"></img>
+                        <div>
+                            <ul className="second-group-logos">
+                                <li><a className="github-anchor" href="https://github.com/vitorfontenele/eleicoes-brasil" target="_blank"><GithubLogo /></a></li>
+                                <li><a className="external-link-anchor" href="https://vitorfontenele.github.io/eleicoes-brasil/" target="_blank"><ExternalLinkLogo /></a></li>
+                            </ul>                           
                         </div>
                     </div>
                     <h4 className="other-proj-title">Resultado das eleições</h4>

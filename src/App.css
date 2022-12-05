@@ -36,11 +36,11 @@
   transition: .5s ease all;
 }
 
-.logo-svg:hover{
+.github-anchor:hover .logo-svg{
   fill: #56CFBA;
 }
 
-.logo-svg-2:hover{
+.external-link-anchor:hover .logo-svg-2{
   stroke: #56CFBA;
 }
 

@@ -22,8 +22,8 @@ const SectionProjects = () => {
                         <li className="project-tech">SVG</li>
                     </ul>
                     <ul className="project-links">
-                        <li><a href=""><GithubLogo /></a></li>
-                        <li><a href=""><ExternalLinkLogo /></a></li>
+                        <li><a className="github-anchor" href="https://github.com/vitorfontenele/weather-app-brasil" target="_blank"><GithubLogo /></a></li>
+                        <li><a className="external-link-anchor" href="https://vitorfontenele.github.io/weather-app-brasil-build/" target="_blank"><ExternalLinkLogo /></a></li>
                     </ul>
                 </div>                
             </article>
@@ -43,8 +43,8 @@ const SectionProjects = () => {
                         {/* <li className="project-tech">SVG</li> */}
                     </ul>
                     <ul className="project-links">
-                        <li><a href=""><img className="proj-link-image" src="github-logo.svg" /></a></li>
-                        <li><a href=""><img className="proj-link-image" src="external-link.svg" /></a></li>
+                        <li><a className="github-anchor" href="https://github.com/vitorfontenele/shopping-cart" target="_blank"><GithubLogo /></a></li>
+                        <li><a className="external-link-anchor" href="" target="_blank"><ExternalLinkLogo /></a></li>
                     </ul>
                 </div>                
             </article>
@@ -64,8 +64,8 @@ const SectionProjects = () => {
                         {/* <li className="project-tech">SVG</li> */}
                     </ul>
                     <ul className="project-links">
-                        <li><a href=""><img className="proj-link-image" src="github-logo.svg" /></a></li>
-                        <li><a href=""><img className="proj-link-image" src="external-link.svg" /></a></li>
+                    <li><a className="github-anchor" href="https://github.com/vitorfontenele/projeto-intro-web" target="_blank"><GithubLogo /></a></li>
+                        <li><a className="external-link-anchor" href="https://vitorfontenele.github.io/projeto-intro-web/" target="_blank"><ExternalLinkLogo /></a></li>
                     </ul>
                 </div>                
             </article>
