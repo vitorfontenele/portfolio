@@ -8,6 +8,23 @@
     align-items: center;
     z-index: 2;
     background-color: #0A192F;
+    transition: 1s ease all;
+}
+
+#header.visible{
+    top: 0;
+}
+
+#header.hidden{
+    top: -100%;
+}
+
+#header.shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#header.unshadow{
+    box-shadow: none;
 }
 
 #nav-list{
@@ -59,6 +76,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    #header{
+        padding: 0px 7vw;
+    }
+
     #hamburguer-menu{
         display: block;
     }
@@ -68,9 +89,12 @@
         top: 100px;
         width: 100vw;
         left: -100%;
-        padding: 25px;
-        background-color: #0A192F;
+        padding: 25px 7vw 40px 7vw;
+        /* background-color: #0A192F; */
+        /* background-color: #112240; */
+        background-color: rgba(10, 25, 47, 0.95);
         transition: .5s ease all;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     }
 
     #navbar.show{

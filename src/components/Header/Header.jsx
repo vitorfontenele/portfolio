@@ -1,15 +1,37 @@
 import "./style.css";
-import { useState } from "react";
+import { useState , useEffect } from "react";
 
 const Header = () => {
     const [show, setShow] = useState(false);
+    const [position, setPosition] = useState(window.pageYOffset);
+    const [visible, setVisible] = useState(true);
+    const [shadow, setShadow] = useState(false);
 
     const controlNavbar = () => {
         setShow(current => !current);
     }
 
+    useEffect(() => {
+        const handleScroll = () => {
+            // Hide or show header
+            const moving = window.pageYOffset;
+            setVisible(position > moving);
+            setPosition(moving);
+
+            // Shadow or un-shadow header
+            setShadow(window.pageYOffset > 0);
+        }
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        }
+    })
+
+    const clsVisible = visible ? "visible" : "hidden";
+    const clsShadow = shadow ? "shadow" : "unshadow";
+
     return (
-        <header id="header" data-aos="fade-up" data-aos-duration="1000">
+        <header id="header" className={`${clsVisible} ${clsShadow}`} data-aos="fade-up" data-aos-duration="1000">
             <nav id="navbar" className={show ? "show" : ""}>
                 <ul id="nav-list">
                     <li className="nav-item"><a href="#hero" className="nav-link"><span className="nav-item-number highlight-text">01. </span>Home</a></li>
