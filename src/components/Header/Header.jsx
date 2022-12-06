@@ -27,6 +27,10 @@ const Header = () => {
         }
     })
 
+    const hideMenu = () => {
+        setShow(false);
+    }
+
     const clsVisible = visible ? "visible" : "hidden";
     const clsShadow = shadow ? "shadow" : "unshadow";
 
@@ -34,9 +38,9 @@ const Header = () => {
         <header id="header" className={`${clsVisible} ${clsShadow}`} data-aos="fade-up" data-aos-duration="1000">
             <nav id="navbar" className={show ? "show" : ""}>
                 <ul id="nav-list">
-                    <li className="nav-item"><a href="#hero" className="nav-link"><span className="nav-item-number highlight-text">01. </span>Home</a></li>
-                    <li className="nav-item"><a href="#about" className="nav-link"><span className="nav-item-number highlight-text">02. </span>Sobre</a></li>
-                    <li className="nav-item"><a href="#projects" className="nav-link"><span className="nav-item-number highlight-text">03. </span>Projetos</a></li>
+                    <li className="nav-item"><a onClick={hideMenu} href="#hero" className="nav-link"><span className="nav-item-number highlight-text">01. </span>Home</a></li>
+                    <li className="nav-item"><a onClick={hideMenu} href="#about" className="nav-link"><span className="nav-item-number highlight-text">02. </span>Sobre</a></li>
+                    <li className="nav-item"><a onClick={hideMenu} href="#projects" className="nav-link"><span className="nav-item-number highlight-text">03. </span>Projetos</a></li>
                 </ul>
             </nav>
             <div id="hamburguer-menu" onClick={controlNavbar}>
