@@ -75,7 +75,16 @@
   }
 
 @media screen and (max-width: 500px){
+    #hero-hello{
+        margin-bottom: 3vw;
+    }
+
     #hero-about{
         width: 100%;
+        margin-top: 3vw;
+    }
+
+    .hero-link{
+        width: clamp(120px, 30vw, 150px);
     }
 }

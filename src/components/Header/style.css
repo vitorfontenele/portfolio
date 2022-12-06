@@ -78,6 +78,7 @@
 @media screen and (max-width: 500px) {
     #header{
         padding: 0px 7vw;
+        height: 64px;
     }
 
     #hamburguer-menu{
@@ -86,7 +87,7 @@
 
     #navbar{
         position: fixed;
-        top: 100px;
+        top: 64px;
         width: 100vw;
         left: -100%;
         padding: 25px 7vw 40px 7vw;
